@@ -1,0 +1,78 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_margin="25dp"
+        />
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/tvImageOne"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:padding="8dp"
+            android:text="IMAGE 1"
+            android:background="#008877"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.01"
+            />
+
+        <TextView
+            android:id="@+id/tvImageTwo"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:padding="8dp"
+            android:text="IMAGE 2"
+            android:background="#008877"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+
+        <View
+            android:layout_height="1dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.01"
+            />
+        <TextView
+            android:id="@+id/tvImageThree"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:padding="8dp"
+            android:text="IMAGE 3"
+            android:background="#008877"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
